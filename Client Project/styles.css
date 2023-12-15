@@ -1,0 +1,67 @@
+main>img{
+    max-width: 100%
+}
+.logo{
+    max-width: 10%;
+    padding-left: 50px;
+}
+body{
+    background-color: #ef7f83;
+}
+main{
+    background-color: #ef7f83;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    margin: 2.5rem;
+}
+header{
+   background-color: #c92027;
+}
+nav{
+    background-color: #b01f24;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+nav>a{
+    color:white;
+    font-size: larger;
+    font-weight: 900;
+    font-family: 'Russo One', sans-serif;
+    -webkit-text-stroke-width: 0.25px;
+    -webkit-text-stroke-color: black;
+
+}
+h1{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+footer{
+    background-color: #c92027;
+    border-top: 2rem solid #b01f24;
+    padding-bottom: 2rem;
+    font-family: 'Russo One', sans-serif;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+h1{
+    text-align: center;
+}
+p{
+    font-family: 'Russo One', sans-serif;
+}
+header>.flex-container{
+    display:flex;
+    flex-direction:row;
+}
