@@ -61,7 +61,49 @@ h1{
 p{
     font-family: 'Russo One', sans-serif;
 }
+h3{
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
 header>.flex-container{
     display:flex;
     flex-direction:row;
+}
+.gallery{
+    position: relative;
+    width: calc(100%-4rem);
+    max-width: 100%;
+    height: calc(100vw / 1.778);
+    overflow: hidden;
+}
+.gallery .slide{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 1rem;
+    overflow: hidden;
+}
+.arrow{
+    position: absolute;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    z-index: 1;
+    top: calc(50% - 1.5rem)
+}
+.left{
+    left: .5rem;
+}
+.right{
+    right: .5rem;
+}
+.gallery img{
+    max-width: 100.025vw;
+    height: calc(100.25vw / 1.778);
 }
