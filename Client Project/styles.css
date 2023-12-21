@@ -1,6 +1,3 @@
-main>img{
-    min-width: 100%;
-}
 .logo{
     grid-column-start: 1;
     grid-column-end: 1;
@@ -116,14 +113,28 @@ header>.flex-container{
     grid-column-start: 2;
     grid-column-end: 2;
 }
+.photo1>img{
+    width: 100%;
+}
 @media (min-width: 1000px){
     main>.flex-container{
-        display: flex;
+        display:flex;
         flex-wrap: nowrap;
-        }
-        img{
-            max-width:50%;
-            max-height:50%;
-        }
-
+    }
+    main>.flex-container2{
+        display:flex;
+        flex-wrap: nowrap;
+    }
+}
+.nurse{
+    display:block;
+    margin:auto;
+}
+.chansey{
+    max-width: 400px;
+    display:block;
+    margin:auto;
+}
+.pc{
+    max-width: 449px;
 }
