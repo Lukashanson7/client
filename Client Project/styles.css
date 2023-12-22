@@ -125,6 +125,19 @@ header>.flex-container{
         display:flex;
         flex-wrap: nowrap;
     }
+    main>.flex-container3{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .text3{
+        padding-right: 2.5rem;
+    }
+    .text1{
+        padding-left: 2.5rem;
+    }
+    .text2{
+        padding-right: 2.5rem
+    }
 }
 .nurse{
     display:block;
@@ -137,4 +150,10 @@ header>.flex-container{
 }
 .pc{
     max-width: 449px;
+    display:block;
+    margin:auto;
+}
+.healing{
+    display:block;
+    margin:auto;
 }
