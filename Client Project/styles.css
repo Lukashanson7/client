@@ -76,7 +76,7 @@ header>.flex-container{
 }
 .gallery{
     position: relative;
-    width: calc(100%-4rem);
+    width: calc(100% - 4rem);
     max-width: 100%;
     height: calc(100vw / 1.778);
     overflow: hidden;
